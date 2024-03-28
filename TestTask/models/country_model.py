@@ -1,6 +1,5 @@
-from typing import List, Dict
-
 import requests
+from typing import List, Dict
 
 
 class Country:
