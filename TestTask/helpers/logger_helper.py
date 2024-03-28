@@ -7,7 +7,6 @@ from loguru import logger
 class Logger:
     __logger = logger
     __logger.remove(0)
-
     __logger.add(sys.stderr, format="<blue>[{level}]</blue> : <green>{message}</green>", colorize=True)
 
     @staticmethod
