@@ -5,7 +5,7 @@ from config import test_data
 
 
 @pytest.mark.parametrize("country_code", test_data.COUNTRY_CODES)
-def test_borders_between_countries(country_code) -> None:
+def test_borders_between_countries(api_tests, country_code) -> None:
     wrong_country_borders = []
 
     country_borders = steps.get_country_borders_data(country_code)
