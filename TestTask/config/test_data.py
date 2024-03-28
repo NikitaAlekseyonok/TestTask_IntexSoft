@@ -1,0 +1,1 @@
+COUNTRY_CODES = ["LVA", "LTU", "POL", "RUS", "UKR"]
